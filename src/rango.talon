@@ -58,7 +58,7 @@ tab split: user.rango_move_tab_to_new_window()
 tab back: user.rango_focus_previous_tab()
 
 # Focus or create tab from your `talonhub/community` websites.csv
-visit {user.website}: user.rango_focus_or_create_tab_by_url(website)
+visit <user.website>: user.rango_focus_or_create_tab_by_url(website)
 
 # Focus tab by text
 tab hunt <user.text>: user.rango_focus_tab_by_text(text)
